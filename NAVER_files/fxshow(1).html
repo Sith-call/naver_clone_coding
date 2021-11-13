@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)https://siape.veta.naver.com/fxshow?su=SU10601&calp=1&nrefreshx=1 -->
+<html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>NAVER</title>
+    <link rel="stylesheet" type="text/css" href="./common.min.css">
+    <script type="text/javascript" src="./jquery-1.8.0.min.js(1).다운로드"></script>
+    <script type="text/javascript" src="./pc.veta.core.min.js(2).다운로드"></script>
+    <style type="text/css">
+        /* DA Alternative - Contents Style */
+        #addiv{position:relative}
+        #addiv embed,#addiv object{z-index:20}
+        #addiv #da_alt{position:absolute;top:0;left:0;width:100%;height:100%;z-index:-1}
+        #addiv #da_alt.on{z-index:30}
+        #addiv #da_alt a{display:block;overflow:hidden;position:absolute;bottom:0;left:0;width:100%;height:100%}
+        #addiv #da_alt .guide{visibility:hidden;position:absolute;top:50%;left:50%;width:154px;height:58px;margin:-29px 0 0 -77px;background:url(https://ssl.pstatic.net/tveta/libs/res/www/common/info/da_access.png)}
+        #addiv #da_alt.on .guide{visibility:visible}
+    </style>
+</head>
+<body onload="lazyLoading()" marginwidth="0" marginheight="0">
+<div id="addiv">
+    <a href="https://siape.veta.naver.com/fxclick?eu=EU10041893&amp;calp=1&amp;oj=ZagUyei1lSi5buvAAbhmBFAv32dC097%2FuMXbALEyZn0%2Brd9kfbPrClUw4jImpmHbBvec6pf9pSehaCVhJTl8WU1fQcMb%2B3TiF8shjlhaA5E&amp;ac=8373708&amp;src=5226765&amp;br=3567462&amp;evtcd=P901&amp;x_ti=1312&amp;tb=&amp;oid=&amp;sid1=&amp;sid2=&amp;rk=348c61922cba75c28c95284c951d78f2&amp;eltts=70D1rCxLPmAzyb0i9%2FYEww%3D%3D&amp;lu=&amp;brs=Y&amp;" id="ac_banner_a" target="_blank">
+    <img src="./ecb536dacd0c2396662f_20210729113903021.jpg" width="700" height="400" alt="[광고]NAVER VIBE BTS의 글로벌 서머송 Butter와 심장을 뛰게하는 Permission to Dance를 더욱 생생하게" border="0" style="width:350px;height:200px;"><div id="da_access" style="position: absolute; top: 50%; left: 50%; width: 154px; height: 58px; margin: -29px 0px 0px -77px; background: url(&quot;https://ssl.pstatic.net/tveta/libs/res/www/common/info/da_access.png&quot;); display: none;"></div></a>
+</div>
+<script type="text/javascript">
+    try {
+        document.domain = "naver.com";
+    } catch (e) {}
+
+    function lazyLoading() {
+        new Nimp(["https://siape.veta.naver.com/fxview?eu=EU10041893&calp=1&oj=ZagUyei1lSi5buvAAbhmBFAv32dC097%2FuMXbALEyZn0%2Brd9kfbPrClUw4jImpmHbBvec6pf9pSehaCVhJTl8WU1fQcMb%2B3TiF8shjlhaA5E&ac=8373708&src=5226765&evtcd=P100&x_ti=1312&tb=&oid=&sid1=&sid2=&rk=348c61922cba75c28c95284c951d78f2&eltts=70D1rCxLPmAzyb0i9%2FYEww%3D%3D&brs=Y&&eid=V800"]).log(1);
+        initAd();
+    };
+    function initAd() {
+        setDomByGOLang();
+        initAltForImage();
+        setClickCoordinate();
+    };
+    function setDomByGOLang() {
+        var targetTag = $("#ac_banner_a");
+        var daHtml = "";
+
+        daHtml += "<img src=\"https://ssl.pstatic.net/tveta/libs/1349/1349099/ecb536dacd0c2396662f_20210729113903021.jpg\" width=\"700\" height=\"400\" alt=\"[광고]NAVER VIBE BTS의 글로벌 서머송 Butter와 심장을 뛰게하는 Permission to Dance를 더욱 생생하게\" border=\"0\" style=\"width:350px;height:200px;\">";
+
+        targetTag.append(daHtml);
+    };
+    function initAltForImage() {
+        // DA Alternative - Create Access Layer
+        var accessLayer = document.createElement('div');
+        accessLayer.setAttribute('id', 'da_access');
+        accessLayer.style.cssText = 'position:absolute;top:50%;left:50%;width:154px;height:58px;margin:-29px 0 0 -77px;background:url(https://ssl.pstatic.net/tveta/libs/res/www/common/info/da_access.png)';
+        accessLayer.style.display = "none";
+        var oAdDiv = document.getElementById("ac_banner_a");
+        oAdDiv.appendChild(accessLayer);
+
+        // DA Alternative - Focus Action
+        var altLink = document.getElementById("ac_banner_a");
+        var bMousedown = false;
+        altLink.onmousedown = function() {
+            bMousedown = true;
+        };
+        altLink.onfocus = function() {
+            if (!bMousedown) {
+                accessLayer.style.display = "block";
+            }
+        };
+        altLink.onblur = function() {
+              accessLayer.style.display = "none";
+        };
+    };
+    function setClickCoordinate(){
+        if (Da.$$("da_brand") !== null) {
+          new naver_corp_da.getClickedCoordinate({
+            adArea: Da.$$("da_brand")
+          }).activate();
+        }
+        new naver_corp_da.getClickedCoordinate({
+            adArea: Da.$("addiv"),
+            adType: "image",
+            parentArea: Da.$$("veta_branding")
+        }).activate();
+    };
+</script>
+
+<div style="display: none;"></div></body></html>

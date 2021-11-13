@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>NAVER</title>
+        <link rel="stylesheet" href="./naver_clone.css">
+    </head>
+    <body id="wrap">
+        <div class="header">
+            <div id="up_bar">
+                <div id="up_bar_container">
+                    <div><a><img id="naver_logo" src="./img/네이버로고.png"></a></div>
+                    <div class="search_area">
+                        <form method="get" action="https://serch.naver.com/search.naver" name="sform" role="search" id="sform">
+                            <input name="query" type="text" title="검색어 입력" maxlength="255" class="input_text" placeholder="검색어를 입력해 주세요.">
+                            <a><img class="search_bar_keyboard" src="./img/로고 키보드.png"></a>
+                            <div class="triangle_container"><a href="#"><img class="search_bar_triangle" src="./img/검색창삼각형.png"></a></div>
+                            <button id="search_button" type="button"><img id="search_button_logo" src="./img/검색창버튼.png"></button>
+                        </form>
+                    </div>
+                    <div class="service_area">
+                        <div class="service_bar">
+                            <a href="#"id="service_bar_font1" href="https://help.naver.com/support/welcomePage/guide.help">네이버를 시작페이지로</a>
+                            <img id="service_bar_img" src="./img/네이버 서비스 바 로고.png">
+                            <div id="service_bar_inbar" ></div>
+                            <a href="#"id="service_bar_font2" href="https://jr.naver.com/">쥬니어네이버</a>
+                            <a href="#"id="service_bar_font2" href="https://happybean.naver.com/">해피빈<a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="down_bar">
+                <div class="nm_favorite">
+                    <div class="group_nv">
+                        <div class="group_left">
+                            <div style="width: 59px;" class="group_left_cell"><a href="#"href="https://mail.naver.com/"><img src="./img/네비메일.png">메일</a></div>
+                            <div style="width: 30px; padding-left: 12px;" class="group_left_cell"><a href="#"href="https://section.cafe.naver.com/">카페</a></div>
+                            <div style="width: 45px; padding-left: 12px;" class="group_left_cell"><a href="#"href="https://section.blog.naver.com/">블로그</a></div>
+                            <div style="width: 45px; padding-left: 12px;" class="group_left_cell"><a href="#"style="font-size: 14px;" href="https://kin.naver.com/">지식iN</a></div>
+                            <div style="width: 28px; padding-left: 12px;" class="group_left_cell"><a href="#"style="font-size: 14px;" href="https://shopping.naver.com/">쇼핑</a></div>
+                            <div style="width: 56px; padding-left: 12px;" class="group_left_cell"><a href="#"style="font-size: 14px;" href="https://shoppinglive.naver.com/home">쇼핑<img style="width: 27px;" class="group_left_img" src="./img/네비쇼핑.png"></a></div>
+                            <div style="width: 25px; padding-left: 12px;" class="group_left_cell"><a href="#"href="https://order.pay.naver.com/home">Pay</a></div>
+                            <div style="width: 33px; padding-left: 12px;" class="group_left_cell"><a href="#"href="https://tv.naver.com/"><img  class="group_left_img" src="./img/네비티비.png">TV</a></div>
+                        </div>
+                        <div class="group_right">
+                            <div style="width: 29px;"><a href="#"href="https://dict.naver.com/">사전</a></div>
+                            <div style="width: 29px; padding-left: 12px;"><a href="#"href="https://news.naver.com/">뉴스</a></div>
+                            <div style="width: 29px; padding-left: 12px;"><a href="#"href="https://finance.naver.com/">증권</a></div>
+                            <div style="width: 44px; padding-left: 12px;"><a href="#"href="https://land.naver.com/">부동산</a></div>
+                            <div style="width: 29px; padding-left: 12px;"><a href="#"href="https://map.naver.com/">지도</a></div>
+                            <div style="width: 31px; padding-left: 12px;"><a href="#"href="https://vibe.naver.com/">VIBE</a></div>
+                            <div style="width: 14px; padding-left: 12px;"><a href="#"href="https://book.naver.com/">책</a></div>
+                            <div style="width: 29px; padding-left: 12px;"><a href="#"href="https://comic.naver.com/">웹툰</a></div>
+                        </div>
+                        <div class="group_more">
+                            <div class="group_more_content">
+                                <a>더보기</a>
+                                <img src="./img/더보기삼각형.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nm_weather">
+                        <div class="nm_weather_content">
+                            <a href="#"href="https://weather.naver.com/today/09380106">
+                                <img style="width: 29px; height: 29px;
+                                 margin-right: 9px;" src="./img/다운바햇님.png">
+                                <div><span style="font-size: 15px;">31.0°</span><span style="font-size: 13px;">맑음</span></div>
+                                <div  style="width: 69.7px; margin-left: 9px;"><span style="font-size: 13px; color:rgb(37,134,238); line-height: 29px;">25.0°</span><span style="height: 11px; width: 5px; margin: 0 3px 0 3px; color: gray;">/</span><span style="font-size: 13px; color:rgb(233,86,74); line-height: 29px;">33.0°</span></div>
+                                <div style="width: 36px; padding-left :9px; color:gray; font-size:12px; ">대조동</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" role="button" class="darkmode_button">
+                <img src="./img/다크모드.png">
+            </button>
+            <div class="top_anchor">
+                <a href="#"href="https//www.naver.com/#wrap">
+                <img src="./img/앵커버튼.png">
+                </a>
+            </div>
+        </div>
+        <div class="ultra_wrap">
+            <div class="container">
+                <div class="nm_int_left">
+                    <a href="#">
+                        <div class="veta_top">
+                            <img src="./img/베타탑.png">
+                        </div>
+                    </a>
+                    <div class="newsstand">
+                        <div class="news_header">
+                            <div class="issue_area">
+                                <a href="#"class="issue_area_rolling" href="#">연합뉴스 ></a>
+                                <a href="#"class="issue_area_content">미스텔스기 도입 반대 활동가에 '60여명 포섭 지령'</a>
+                            </div>
+                            <div class="direct_area">
+                                <a href="#"class="direct_tokyo" href="#">TOKYO2020</a>
+                                <div class="direct_dot">·</div>
+                                <a href="#"class="direct_news" href="#">네이버뉴스</a>
+                                <div class="direct_dot">·</div>
+                                <a href="#"class="direct_text" href="#">연예</a>
+                                <div class="space"></div>
+                                <a href="#"class="direct_text" href="#">스포츠</a>
+                            </div>
+                        </div>
+                        <div class="news_title">
+                            <div class="news_title_left">
+                                <img class="news_title_img1" src="./img/뉴스타이틀사진1.png">
+                                <a href="#" class="news_title_text1">뉴스스탠드</a>
+                                <a href="#" class="news_title_arrow">></a>
+                                <a href="#" class="news_title_text1">구독한 언론사</a>
+                                <a href="#" class="news_title_dot">·</a>
+                                <a href="#"class="news_title_text2">전체언론사</a>
+                            </div>
+                            <div class="news_title_right">
+                                <a href="#"><img class="news_title_img2" src="./img/뉴스타이틀사진2.png"></a>
+                                <a href="#"><img class="news_title_img2" src="./img/뉴스타이틀사진3.png"></a>
+                                <a href="#"><img class="news_title_img2" src="./img/뉴스타이틀사진4.png"></a>
+                            </div>
+                        </div>
+                        <div class="news_view_border">
+                            <!-- <a href="#"class="news_left_logo" href="#">
+                            <img src="./img/뉴스왼쪽화살표.png">
+                            </a>
+                            <a href="#"class="news_right_logo" href="#">
+                                <img src="./img/뉴스오른쪽화살표.png">
+                            </a> -->
+                            <div class="news_view">
+                                <div class="news_view_title">
+                                    <div class="news_view_wrap">
+                                        <a href="#"class="news_view_title_text" href="#">보안뉴스</a>
+                                        <a href="#"class="news_view_title_text" href="#">국방일보</a>
+                                        <a href="#"class="news_view_title_text" href="#">한국경제</a>
+                                        <a href="#"class="news_view_title_text" href="#">블로터</a>
+                                        <a href="#"class="news_view_title_text" href="#">법률신문</a>
+                                        <a href="#"class="news_view_title_text" href="#">컴퓨터월드</a>
+                                    </div>
+                                </div>
+                                <div class="news_view_content">
+                                    <div class="media_box">
+                                        <a href="#"class="media_box_logo" href="#"><img src="./img/뉴스뷰사진1.png"></a>
+                                        <div class="media_box_text">2021.08.07. 13:48 편집</div>
+                                        <a href="#"class="media_box_x" href=""><img src="./img/뉴스뷰사진2.png"></a>
+                                    </div>
+                                    <div class="news_box">
+                                        <div class="main_news">
+                                            <a href="#">
+                                                <div class="main_news_wrap">
+                                                    <img class="main_news_img" src="./img/뉴스뷰사진3.png">
+                                                    <div class="main_news_title">2분기도 '최고실적' 카카오, 하반기 구독·콘텐츠 힘준다</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="sub_news">
+                                            <div class="list_news">
+                                                <a href="#" class="news_item">
+                                                    [넘버스]삼성전기, 물발자국·탄소발자국 인증의 이면
+                                                </a>
+                                                <a href="#" class="news_item">
+                                                    롯데쇼핑, 아직 뚜렷한 변화 없는 '이커머스' 사업
+                                                </a>
+                                                <a href="#" class="news_item">
+                                                    [통신사 기업가치③]LG유플러스, 통시니 실적은 좋지...
+                                                </a>
+                                                <a href="#" class="news_item">
+                                                    [넘버스]SK이노베이션 배터리 분사...'리스크 관리' ...
+                                                </a>
+                                                <a href="#" class="news_item">
+                                                    [넘버스]삼지전자, 결과로 반박한 5년 전 'SAMT 인...
+                                                </a>
+                                                <a href="#" class="news_item">
+                                                    시중銀 방치 '56억 예금' 끌어안은 카카오뱅크…1조 ...
+                                                </a>
+                                            </div>
+                                            <div class="notice_msg">
+                                                블로터 언론사에서 직접 편집한 뉴스입니다.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sc_themecast">
+                            <div class="theme_head">
+                                <div class="group_title">
+                                    <div class="title_area">
+                                        <div class="title_area_title">
+                                            오늘 읽은만한 글
+                                        </div>
+                                        <div class="title_area_text">
+                                            주제별로 분류된 다양한 글 모음
+                                        </div>
+                                    </div>
+                                    <div class="info_area">
+                                        <div class="info_area_number">
+                                            1,761
+                                        </div>
+                                        <div class="info_area_text">
+                                            개의 글
+                                        </div>
+                                        <div class="info_area_bar"></div>
+                                        <a href="#">
+                                            <img src="./img/인포영역톱니.png">
+                                            <div class="info_area_text2">
+                                                관심주제 설정
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <nav1>
+                                    <div class="group_nav_text">엔터</div>
+                                </nav1>
+                                <nav2>
+                                    <div class="group_nav_text">스포츠</div>
+                                </nav2>
+                                <nav3>
+                                    <div class="group_nav_text">웹툰</div>
+                                </nav3>
+                                <nav4>
+                                    <div class="group_nav_text">자동차</div>
+                                </nav4>
+                                <nav5>
+                                    <div class="group_nav_text">게임</div>
+                                </nav5>
+                                <nav6>
+                                    <div class="group_nav_text">테크</div>
+                                </nav6>
+                                <nav7>
+                                    <div class="group_nav_text">영화</div>
+                                </nav7>
+                                <nav8>
+                                    <div class="group_nav_text">경제M</div>
+                                </nav8>
+                            </div>
+                        </div>
+                        <div class="group_topstory">
+                            <a href="#" class="topstory_left">
+                                <img src="./img/탑스토리1.png" class="topstory_left_img">
+                                <div class="topstory_text_wrap">
+                                    <div class="topstory_text_title1">
+                                        네이버TV
+                                    </div>
+                                    <div class="topstory_text_title2">
+                                        남지현X채종협 댕댕이들의 꽁냥모먼트ㅣ5화 비하인드 메이킹
+                                    </div>
+                                    <div class="topstory_text_title3">
+                                        마녀식당으로 오세요
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="topstory_right">
+                                <a href="#"class="topstory_right_content" href="#">
+                                    <img src="./img/탑스토리오른쪽1.png" class="topstory_right_img">
+                                    <div class="topstory_right_text_wrap">
+                                        <div class="topstory_text_title1">
+                                            V LIVE
+                                        </div>
+                                        <div class="topstory_text_title2">
+                                            Talk time😃
+                                        </div>
+                                        <div class="topstory_text_title3">
+                                            ENHYPEN
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#"class="topstory_right_content" href="#">
+                                    <img src="./img/탑스토리오른쪽2.png" class="topstory_right_img">
+                                    <div class="topstory_right_text_wrap">
+                                        <div class="topstory_text_title1">
+                                            V LIVE
+                                        </div>
+                                        <div class="topstory_text_title2">
+                                            6TH MINI ALBUM [THRILL-ING] <br> HIGHLIGHT MEDLEY
+                                        </div>
+                                        <div class="topstory_text_title3">
+                                            THE BOYZ
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#"class="topstory_right_content" href="#">
+                                    <img src="./img/탑스토리오른쪽3.png" class="topstory_right_img">
+                                    <div class="topstory_right_text_wrap">
+                                        <div class="topstory_text_title1">
+                                            네이버 시리즈온
+                                        </div>
+                                        <div class="topstory_text_title2">
+                                            😘99즈와 함께라면 <br>매일이 특별한 슬요일✨
+                                        </div>
+                                        <div class="topstory_text_title3">
+                                            슬기로운 의사생활2
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="theme_link">
+                            <div class="theme_link_text1">
+                                연예 홈
+                            </div>
+                            <div class="theme_link_text2">
+                                네이버 TV홈
+                            </div>
+                            <div class="theme_link_text2">
+                                V LIVE
+                            </div>
+                            <div class="theme_link_text2">
+                                TOP100
+                            </div>
+                            <div class="theme_link_text2">
+                                시리즈온
+                            </div>
+                            <div class="theme_link_text2">
+                                라이브 일정
+                            </div>
+                            <div class="theme_link_text2">
+                                VIBE
+                            </div>
+                        </div>
+                        <div class="media_grid1">
+                            <a href="#" class="grid1_content">
+                                <img class="grid1_img" src="./img/grid1-1.png">
+                                <div class="grid1_text_wrap">
+                                    <div class="grid1_text_title1">
+                                        웹드라마
+                                    </div>
+                                    <div class="grid1_text_title2">
+                                        "네가 왜 내 옆에 없는거야..?"[블루버스테이] - EP.04
+                                    </div>
+                                    <div class="grid1_text_title3">
+                                        플레이리스트 오리지널 PLAYLIST ... · 2분전
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="grid1_content">
+                                <img class="grid1_img" src="./img/grid1-2.png">
+                                <div class="grid1_text_wrap">
+                                    <div class="grid1_text_title1">
+                                        웹예능
+                                    </div>
+                                    <div class="grid1_text_title2">
+                                        샷건 처음 잡아 본 사람 맞아? [시켜서 한다! 오늘부터 운동뚱] 66회
+                                    </div>
+                                    <div class="grid1_text_title3">
+                                        시켜서한다! 오늘부터 운동뚱 · 2분전
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="grid1_content">
+                                <img class="grid1_img" src="./img/grid1-3.png">
+                                <div class="grid1_text_wrap">
+                                    <div class="grid1_ADD_title1">
+                                        오늘회 AD
+                                    </div>
+                                    <div class="grid1_ADD_title2">
+                                        이번주 꼭 먹어야하는 제철수산물 6종
+                                    </div>
+                                    <div class="grid1_ADD_title3">
+                                        오늘 주문, 오늘 도착
+                                    </div>
+                                    <div class="grid1_ADD_title4">
+                                        더 알아보기 >
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="grid1_content">
+                                <img class="grid1_img" src="./img/grid1-4.png">
+                                <div class="grid1_text_wrap">
+                                    <div class="grid1_text_title1">
+                                        웹드라마
+                                    </div>
+                                    <div class="grid1_text_title2">
+                                        첫사랑과 10년 만에 데이트를 했다 [블루버스테이] - EP.05
+                                    </div>
+                                    <div class="grid1_text_title3">
+                                        플레이리스트 오리지널 PLAYLIST ... · 2분전
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="grid1_content">
+                                <img class="grid1_img" src="./img/grid1-5.png">
+                                <div class="grid1_text_wrap">
+                                    <div class="grid1_text_title1">
+                                        웹예능
+                                    </div>
+                                    <div class="grid1_text_title2">
+                                        보여줄게~ 완전히 달리진 비거리! [시켜서 한다! 오늘부터 운동뚱] 66회
+                                    </div>
+                                    <div class="grid1_text_title3">
+                                        시켜서한다! 오늘부터 운동뚱 · 2분전
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="grid1_content">
+                                <img class="grid1_img" src="./img/grid1-6.png">
+                                <div class="grid1_text_wrap">
+                                    <div class="grid1_text_title1">
+                                        TV 드라마
+                                    </div>
+                                    <div class="grid1_text_title2">
+                                        [10회 예고] 이지아, 엄기준 x 김소연도 믿지 않고 직접 심판?!
+                                    </div>
+                                    <div class="grid1_text_title3">
+                                        펜트하우스 3 · 15시간 전
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="grid1_content">
+                                <img class="grid1_img" src="./img/grid1-7.png">
+                                <div class="grid1_text_wrap">
+                                    <div class="grid1_text_title1">
+                                        웹드라마
+                                    </div>
+                                    <div class="grid1_text_title2">
+                                        10년 전 죽은 친구의 아픈 과거를 봤다 [블루버스테이] - EP.03
+                                    </div>
+                                    <div class="grid1_text_title3">
+                                        플레이리스트 오리지널 PLAYLIST ... · 2분전
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="grid1_content">
+                                <img class="grid1_img" src="./img/grid1-8.png">
+                                <div class="grid1_text_wrap">
+                                    <div class="grid1_text_title1">
+                                        TV 예능
+                                    </div>
+                                    <div class="grid1_text_title2">
+                                        이 구역 식판 마니아는 바로 나! 8개월차 자취러 김경남의 고요한 먹방♨, M...
+                                    </div>
+                                    <div class="grid1_text_title3">
+                                        나 혼자 산다 · 15시간 전
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#"class="grid1_content">
+                                <img class="grid1_img" src="./img/grid1-9.png">
+                                <div class="grid1_text_wrap">
+                                    <div class="grid1_text_title1">
+                                        TV 드라마
+                                    </div>
+                                    <div class="grid1_text_title2">
+                                        엄기준 x 김소연, 공식 석상에 자신들 '만행' 알려지자 당황
+                                    </div>
+                                    <div class="grid1_text_title3">
+                                        펜트하우스 3 · 15시간 전
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="music_chart">
+                            <div class="music_bar">
+                                <a href="#"class="music_left_bar">
+                                    뮤직 급상승 차트 >
+                                </a>
+                                <div class="music_right_bar">
+                                    오후 4시 업데이트
+                                </div>
+                            </div>
+                            <div class="grid2">
+                                <div class="grid2_content">
+                                    <div class="chart_rank">
+                                        1
+                                    </div>
+                                    <div class="chart_info">
+                                        <a href="#"class="info_img_link" href="#">
+                                            <img src="./img/grid2-1.png" class="info_img">
+                                        </a>
+                                        <div class="info_box">
+                                            <a href="#" class="info_title">
+                                                사랑의 아픔 딛고
+                                            </a>
+                                            <a href="#" class="info_text">
+                                                임영웅 · 사랑의 콜센타 P...
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="chart_link">
+                                        <a href="#"class="play_link"><img src="./img/playbtn.png" class="music_play"></a>
+                                        <a href="#"class="lyrics_link"><img src="./img/lyrics_btn.png" class="music_play"></a>
+                                    </div>
+                                </div>
+                                <div class="grid2_content">
+                                    <div class="chart_rank">
+                                        6
+                                    </div>
+                                    <div class="chart_info">
+                                        <a href="#"class="info_img_link" href="#">
+                                            <img src="./img/grid2-2.png" class="info_img">
+                                        </a>
+                                        <div class="info_box">
+                                            <a href="#" class="info_title">
+                                                지금 말해볼게요 (낮에 ...
+                                            </a>
+                                            <a href="#" class="info_text">
+                                                거미 · 지금 말해볼게요 (...
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="chart_link">
+                                        <a href="#"class="play_link"><img src="./img/playbtn.png" class="music_play"></a>
+                                        <a href="#"class="lyrics_link"><img src="./img/lyrics_btn.png" class="music_play"></a>
+                                    </div>
+                                </div>
+                                <div class="grid2_content">
+                                    <div class="chart_rank">
+                                        2
+                                    </div>
+                                    <div class="chart_info">
+                                        <a href="#"class="info_img_link" href="#">
+                                            <img src="./img/grid2-3.png" class="info_img">
+                                        </a>
+                                        <div class="info_box">
+                                            <a href="#" class="info_title">
+                                                오늘 서울은 하루종일 ...
+                                            </a>
+                                            <a href="#" class="info_text">
+                                                헤이즈 (Heize) · [Vol.106] ...
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="chart_link">
+                                        <a href="#"class="play_link"><img src="./img/playbtn.png" class="music_play"></a>
+                                        <a href="#"class="lyrics_link"><img src="./img/lyrics_btn.png" class="music_play"></a>
+                                    </div>
+                                </div>
+                                <div class="grid2_content">
+                                    <div class="chart_rank">
+                                        7
+                                    </div>
+                                    <div class="chart_info">
+                                        <a href="#"class="info_img_link" href="#">
+                                            <img src="./img/grid2-4.png" class="info_img">
+                                        </a>
+                                        <div class="info_box">
+                                            <a href="#" class="info_title">
+                                                애인 있어요
+                                            </a>
+                                            <a href="#" class="info_text">
+                                                정승환 · Cyworld BGM 20...
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="chart_link">
+                                        <a href="#"class="play_link"><img src="./img/playbtn.png" class="music_play"></a>
+                                        <a href="#"class="lyrics_link"><img src="./img/lyrics_btn.png" class="music_play"></a>
+                                    </div>
+                                </div>
+                                <div class="grid2_content">
+                                    <div class="chart_rank">
+                                        3
+                                    </div>
+                                    <div class="chart_info">
+                                        <a href="#"class="info_img_link" href="#">
+                                            <img src="./img/grid2-5.png" class="info_img">
+                                        </a>
+                                        <div class="info_box">
+                                            <a href="#" class="info_title">
+                                                창귀
+                                            </a>
+                                            <a href="#" class="info_text">
+                                                안예은 · 창귀
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="chart_link">
+                                        <a href="#"class="play_link"><img src="./img/playbtn.png" class="music_play"></a>
+                                        <a href="#"class="lyrics_link"><img src="./img/lyrics_btn.png" class="music_play"></a>
+                                    </div>
+                                </div>
+                                <div class="grid2_content">
+                                    <div class="chart_rank">
+                                        8
+                                    </div>
+                                    <div class="chart_info">
+                                        <a href="#"class="info_img_link" href="#">
+                                            <img src="./img/grid2-6.png" class="info_img">
+                                        </a>
+                                        <div class="info_box">
+                                            <a href="#" class="info_title">
+                                                You can't sit with us
+                                            </a>
+                                            <a href="#" class="info_text">
+                                                선미 · 6분의1
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="chart_link">
+                                        <a href="#"class="play_link"><img src="./img/playbtn.png" class="music_play"></a>
+                                        <a href="#"class="lyrics_link"><img src="./img/lyrics_btn.png" class="music_play"></a>
+                                    </div>
+                                </div>
+                                <div class="grid2_content">
+                                    <div class="chart_rank">
+                                        4
+                                    </div>
+                                    <div class="chart_info">
+                                        <a href="#"class="info_img_link" href="#">
+                                            <img src="./img/grid2-7.png" class="info_img">
+                                        </a>
+                                        <div class="info_box">
+                                            <a href="#" class="info_title">
+                                                나도 모르는 사이에
+                                            </a>
+                                            <a href="#" class="info_text">
+                                                적재 · 알고 있지만, OST P...
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="chart_link">
+                                        <a href="#"class="play_link"><img src="./img/playbtn.png" class="music_play"></a>
+                                        <a href="#"class="lyrics_link"><img src="./img/lyrics_btn.png" class="music_play"></a>
+                                    </div>
+                                </div>
+                                <div class="grid2_content">
+                                    <div class="chart_rank">
+                                        9
+                                    </div>
+                                    <div class="chart_info">
+                                        <a href="#"class="info_img_link" href="#">
+                                            <img src="./img/grid2-8.png" class="info_img">
+                                        </a>
+                                        <div class="info_box">
+                                            <a href="#" class="info_title">
+                                                누구보다 널 사랑해
+                                            </a>
+                                            <a href="#" class="info_text">
+                                                TWICE(트와이스) · 슬기로...
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="chart_link">
+                                        <a href="#"class="play_link"><img src="./img/playbtn.png" class="music_play"></a>
+                                        <a href="#"class="lyrics_link"><img src="./img/lyrics_btn.png" class="music_play"></a>
+                                    </div>
+                                </div>
+                                <div style="border: 0;" class="grid2_content">
+                                    <div class="chart_rank">
+                                        5
+                                    </div>
+                                    <div class="chart_info">
+                                        <a href="#"class="info_img_link" href="#">
+                                            <img src="./img/grid2-9.png" class="info_img">
+                                        </a>
+                                        <div class="info_box">
+                                            <a href="#" class="info_title">
+                                                그땐 왜 몰랐을까
+                                            </a>
+                                            <a href="#" class="info_text">
+                                                투앤비(2NB) · 그땐 왜 몰...
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="chart_link">
+                                        <a href="#"class="play_link"><img src="./img/playbtn.png" class="music_play"></a>
+                                        <a href="#"class="lyrics_link"><img src="./img/lyrics_btn.png" class="music_play"></a>
+                                    </div>
+                                </div>
+                                <div style="border: 0;" class="grid2_content">
+                                    <div class="chart_rank">
+                                        10
+                                    </div>
+                                    <div class="chart_info">
+                                        <a href="#"class="info_img_link" href="#">
+                                            <img src="./img/grid2-10.png" class="info_img">
+                                        </a>
+                                        <div class="info_box">
+                                            <a href="#" class="info_title">
+                                                선인장
+                                            </a>
+                                            <a href="#" class="info_text">
+                                                카더가든 · 비긴어게인 오...
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="chart_link">
+                                        <a href="#"class="play_link"><img src="./img/playbtn.png" class="music_play"></a>
+                                        <a href="#"class="lyrics_link"><img src="./img/lyrics_btn.png" class="music_play"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="media_grid1">
+                            <a href="#"class="grid1_content">
+                                <img class="grid1_img" src="./img/grid3-1.png">
+                                <div class="grid1_text_wrap">
+                                    <div class="grid1_text_title1">
+                                        TV 드라마
+                                    </div>
+                                    <div class="grid1_text_title2">
+                                        "내가 봤어" 한지현, 이지아에 김소연의 추악한 진실 폭로
+                                    </div>
+                                    <div class="grid1_text_title3">
+                                        펜트하우스 3 · 15시간 전
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#"class="grid1_content">
+                                <img class="grid1_img" src="./img/grid3-2.png">
+                                <div class="grid1_text_wrap">
+                                    <div class="grid1_text_title1">
+                                        TV 예능
+                                    </div>
+                                    <div class="grid1_text_title2">
+                                        [제35회 골든디스크] 임영웅 - '이제 나만 믿어요 + HERO'♬｜JTBC 210109...
+                                    </div>
+                                    <div class="grid1_text_title3">
+                                        제35회 골든디스크어워즈 with ... · 6개월 전
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#"class="grid1_content">
+                                <img class="grid1_img" src="./img/grid3-3.png">
+                                <div class="grid1_text_wrap">
+                                    <div class="grid1_text_title1">
+                                        TV 예능
+                                    </div>
+                                    <div class="grid1_text_title2">
+                                        [선공개] 김재화&amp;조인성&amp;김윤석&amp;정만식의 티 타임🍵모로코 올킬한 소통능...
+                                    </div>
+                                    <div class="grid1_text_title3">
+                                        전지적 참견시점 · 4시간 전
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#"class="grid1_content">
+                                <img class="grid1_img" src="./img/grid3-4.png">
+                                <div class="grid1_text_wrap">
+                                    <div class="grid1_text_title1">
+                                        TV 드라마
+                                    </div>
+                                    <div class="grid1_text_title2">
+                                        18살 생일선물로 받은 좋아하는 친구의 죽음 [블루버스데이] - EP.01
+                                    </div>
+                                    <div class="grid1_text_title3">
+                                        플레이리스트 오리지널 PLAYLIST ... · 2분 전
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#"class="grid1_content">
+                                <img class="grid1_img" src="./img/grid3-5.png">
+                                <div class="grid1_text_wrap">
+                                    <div class="grid1_text_title1">
+                                        웹예능
+                                    </div>
+                                    <div class="grid1_text_title2">
+                                        배낚시해서배터지게먹기🐟    [시켜서한다! 오늘부터운동뚱] 71회
+                                    </div>
+                                    <div class="grid1_text_title3">
+                                        시켜서한다! 오늘부터 운동뚱 · 2분 전
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#"class="grid1_content">
+                                <img class="grid1_img" src="./img/grid3-6.png">
+                                <div class="grid1_text_wrap">
+                                    <div class="grid1_text_title1">
+                                        웹드라마
+                                    </div>
+                                    <div class="grid1_text_title2">
+                                        10년 전 죽은 첫사랑과 마주쳤다 [블루버스데이] - EP.02
+                                    </div>
+                                    <div class="grid1_text_title3">
+                                        플레이리스트 오리지널 PLAYLIST ... · 2분 전
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#"class="grid1_content">
+                                <img class="grid1_img" src="./img/grid3-7.png">
+                                <div class="grid1_text_wrap">
+                                    <div class="grid1_text_title1">
+                                        TV 예능
+                                    </div>
+                                    <div class="grid1_text_title2">
+                                        1회] K그룹 ‘핫~소스’ ♬영웅(Kick It) - NCT 127 @플래닛 탐색전 | Mnet...
+                                    </div>
+                                    <div class="grid1_text_title3">
+                                        걸스플래닛999 : 소녀대전 · 18시간 전
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#"class="grid1_content">
+                                <img class="grid1_img" src="./img/grid3-8.png">
+                                <div class="grid1_text_wrap">
+                                    <div class="grid1_text_title1">
+                                        TV 드라마
+                                    </div>
+                                    <div class="grid1_text_title2">
+                                        이지아, 유진 죽인 진범 밝혀내고 ‘충격과 분노’
+                                    </div>
+                                    <div class="grid1_text_title3">
+                                        펜트하우스 3 · 16시간 전
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#"class="grid1_content">
+                                <img class="grid1_img" src="./img/grid3-9.png">
+                                <div class="grid1_text_wrap">
+                                    <div class="grid1_text_title1">
+                                        TV 예능
+                                    </div>
+                                    <div class="grid1_text_title2">
+                                        ‘그대라는 사치’♪ 영웅노래 망설이는 생각은 사치★ TV CHOSUN 210701 방송
+                                    </div>
+                                    <div class="grid1_text_title3">
+                                        사랑의 콜센타 · 1개월 전
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="vibe_mag">
+                            <div class="vibe_mag_bar">
+                                <a class="vibe_text" href="#">
+                                    VIBE MAG >
+                                </a>
+                            </div>
+                            <div class="vibe_mag_content">
+                                <div class="vibe_cell">
+                                    <img class="cell_img" src="./img/cell1.png">
+                                    <a href="#" class="cell_text_box">
+                                        <div class="grid1_text_title2">
+                                            친구보다 더 친구 같은 <동네청년>의 김재중
+                                        </div>
+                                        <div class="grid1_text_title3">
+                                            2021.08.07
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="vibe_cell">
+                                    <img class="cell_img" src="./img/cell2.png">
+                                    <a href="#" class="cell_text_box">
+                                        <div class="grid1_text_title2">
+                                            8월의 느낌, 당신의 느낌은 어땠나요?
+                                        </div>
+                                        <div class="grid1_text_title3">
+                                            2021.08.06
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="vibe_cell">
+                                    <img class="cell_img" src="./img/cell3.png">
+                                    <a href="#" class="cell_text_box">
+                                        <div class="grid1_text_title2">
+                                            Billborad HOT 100 : 별들의 전쟁
+                                        </div>
+                                        <div class="grid1_text_title3">
+                                            2021.08.05
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="vibe_cell">
+                                    <img class="cell_img" src="./img/cell4.png">
+                                    <a href="#" class="cell_text_box">
+                                        <div class="grid1_text_title2">
+                                            너는 나의 봄, 이미나 작가
+                                        </div>
+                                        <div class="grid1_text_title3">
+                                            2021.08.04
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="vibe_cell">
+                                    <img class="cell_img" src="./img/cell5.png">
+                                    <a href="#" class="cell_text_box">
+                                        <div class="grid1_text_title2">
+                                            New Release #53 : 실크소닉, 디오
+                                        </div>
+                                        <div class="grid1_text_title3">
+                                            2021.08.02
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="final_bar">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nm_int_right">
+                <div class="login">
+                    <div class="user">
+                        <a class="user_img_link" href="#"><img class="user_img" src="./img/user_icon.png"></a>
+                        <div class="user_text_wrap">
+                            <div class="user_info1">
+                                <a href="#" class="name">
+                                    최우석님
+                                </a>
+                                <div class="bar"></div>
+                                <a class="myinfo">
+                                    내정보
+                                </a>
+                                <a class="lock" href="#"><img class="lock_img" src="./img/user_lock.png"></a>
+                            </div>
+                            <div class="email">
+                                chldntjr0425@naver.com
+                            </div>
+                            <div class="user_info2">
+                                <a href="#" class="info2-1">
+                                    <div class="info2_text1">
+                                        메일
+                                    </div>
+                                    <div class="info2_text2">
+                                        999+
+                                    </div>
+                                </a>
+                                <a href="#" class="info2-1">
+                                    <div class="info2_text1">
+                                        쪽지
+                                    </div>
+                                    <div class="info2_text2">
+                                        0
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="logout">
+                            <a href="#" class="logout_link">
+                                <img src="./img/user_logout.png" class="logout_img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="user_alram">
+                        <a href="#" class="alram_cell">
+                            알림
+                        </a>
+                        <a href="#" class="alram_cell">
+                            MY구독
+                        </a>
+                        <a href="#" class="alram_cell">
+                            메일
+                        </a>
+                        <a href="#" class="alram_cell">
+                            카페
+                        </a>
+                        <a href="#" style="border-right: 1px solid #e4e8eb;" class="alram_cell">
+                            블로그
+                        </a>
+                    </div>
+                </div>
+                <div class="user_under_bar">
+                    <a href="#" class="user_under_text">
+                    <img src="./img/이슈.png" class="issue_img">
+                    <div class="user_corona">
+                        코로나바이러스감염증-19 현황
+                    </div>
+                    </a>
+                    <div class="arrow_box">
+                        <a href="#">
+                            <img src="./img/왼쪽화살표.png" class="left_arrow">
+                        </a>
+                        <a href="#">
+                            <img src="./img/오른쪽화살표.png" class="right_arrow">
+                        </a>
+                    </div>
+                </div>
+                <div class="bts_banner">
+                    <a href="#">
+                        <img src="./img/bts.png" class="bts_img">
+                    </a>
+                </div>
+                <div class="trend_wrap">
+                    <div class="trend_top_bar">
+                        <a href="#" class="shopping_link">
+                            <img src="./img/네이버작은로고.png" class="n_logo">
+                            <div class="trend_shopping_text">
+                                트렌드쇼핑 >
+                            </div>
+                        </a>
+                        <a href="#" class="top_link1">
+                            상품
+                        </a>
+                        <a href="#" class="top_link1">쇼핑몰</a>
+                        <a href="#" class="top_link2">MEN</a>
+                    </div>
+                    <div class="trend_box">
+                        <div class="trend_box_link">
+                            <div class="line">
+                                <div class="font1">쿠팡</div>
+                                <div class="trend_dot">·</div>
+                                <div class="font2">G마켓</div>
+                                <div class="trend_dot">·</div>
+                                <div class="font1">옥션</div>
+                                <div class="trend_dot">·</div>
+                                <div class="font1">11번가</div>
+                                <div class="trend_dot">·</div>
+                                <div class="font1">이마트몰</div>
+                                <div class="trend_dot">·</div>
+                                <div class="font1">티몬</div>
+                            </div>
+                            <div class="line">
+                                <div class="font2">위메프</div>
+                                <div class="trend_dot">·</div>
+                                <div class="font1">신세계몰</div>
+                                <div class="trend_dot">·</div>
+                                <div class="font2">올리브영</div>
+                                <div class="trend_dot">·</div>
+                                <div class="font1">롯데i몰</div>
+                                <div class="trend_dot">·</div>
+                                <div class="font2">GS샵</div>
+                                <div class="trend_dot">·</div>
+                                <div class="font2">CJ온스타일</div>
+                            </div>
+                        </div>
+                        <div class="select_bar1">
+                            <div class="text">
+                                <strong>1</strong>
+                                <span> / 6</span>
+                            </div>
+                            <div class="arrow_area">
+                                <a href="#"><img src="./img/왼쪽화살표.png"></a>
+                                <a href="#"><img src="./img/오른쪽화살표.png"></a>
+                            </div>
+                        </div>
+                        <div class="grid_wrap">
+                            <div class="grid_area1">
+                                <a href="#" class="grid_area1_content">
+                                    <img src="./img/그림1.png" class="grid_area1_img">
+                                    <div class="grid_area_text_wrap">
+                                        <div class="title_1">후기보면 사게돼~</div>
+                                        <div class="title_2">
+                                            미소페BEST 43%↓
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="grid_area1_content">
+                                    <img src="./img/그림2.png" class="grid_area1_img">
+                                    <div class="grid_area_text_wrap">
+                                        <div class="title_1">신박하다 신박해</div>
+                                        <div class="title_2">
+                                            걸레의 혁신이야!
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="grid_area1_content">
+                                    <img src="./img/그림3.png" class="grid_area1_img">
+                                    <div class="grid_area_text_wrap">
+                                        <div class="title_1">강철쿨링 실화야?</div>
+                                        <div class="title_2">
+                                            지금만 50%할인해
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="grid_area1_content">
+                                    <img src="./img/그림4.png" class="grid_area1_img">
+                                    <div class="grid_area_text_wrap">
+                                        <div class="title_1">냉방, 제습 다잡고</div>
+                                        <div class="title_2">
+                                            4만원대 특가GO!
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="grid_area1_content">
+                                    <img src="./img/그림5.png" class="grid_area1_img">
+                                    <div class="grid_area_text_wrap">
+                                        <div class="title_1">요즘 대세 핫템!</div>
+                                        <div class="title_2">
+                                            쓸수록 감탄나와~
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="grid_area1_content">
+                                    <img src="./img/그림6.png" class="grid_area1_img">
+                                    <div class="grid_area_text_wrap">
+                                        <div class="title_1">무크단독가죽로퍼</div>
+                                        <div class="title_2">
+                                            추가인하 2만원대
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="grid_area1_content">
+                                    <img src="./img/그림7.png" class="grid_area1_img">
+                                    <div class="grid_area_text_wrap">
+                                        <div class="title_1">왜 비싸게 사요?</div>
+                                        <div class="title_2">
+                                            가성비 에어컨!
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="grid_area1_content">
+                                    <img src="./img/그림8.png" class="grid_area1_img">
+                                    <div class="grid_area_text_wrap">
+                                        <div class="title_1">아디다스/나이키</div>
+                                        <div class="title_2">
+                                            SET1만원대부터~
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="grid_area1_content">
+                                    <img src="./img/그림9.png" class="grid_area1_img">
+                                    <div class="grid_area_text_wrap">
+                                        <div class="title_1">컬럼비아플리스</div>
+                                        <div class="title_2">
+                                            역시즌특가떴어!
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="select_bar2">
+                                <div class="arrow_area">
+                                    <a href="#"><img src="./img/왼쪽화살표.png"></a>
+                                    <div class="text">
+                                        <strong>1</strong>
+                                        <span> / 6</span>
+                                    </div>
+                                    <a href="#"><img src="./img/오른쪽화살표.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid_wrap2">
+                            <div class="select_bar3">
+                                <div class="bar3_text">
+                                    PLAY · FUN
+                                </div>
+                                <div class="text">
+                                    <strong>1</strong>
+                                    <span> / 6</span>
+                                </div>
+                                <div class="arrow_area">
+                                    <a href="#"><img src="./img/왼쪽화살표.png"></a>
+                                    <a href="#"><img src="./img/오른쪽화살표.png"></a>
+                                </div>
+                            </div>
+                            <div class="grid_area2">
+                                <img src="./img/마지막1.png">
+                                <div class="grid2_cell">
+                                    <a href="#">
+                                    <div class="grid2_cell_title">
+                                        비블랙
+                                    </div>
+                                    <div class="grid2_cell_text">
+                                        <strong>간편한 근력운동 필수템</strong>
+                                        상체폭발엔 푸시업바!
+                                    </div>
+                                    </a>
+                                </div>
+                                <img src="./img/마지막2.png">
+                                <div class="grid2_cell">
+                                    <a href="#">
+                                    <div class="grid2_cell_title">
+                                        리빙
+                                    </div>
+                                    <div class="grid2_cell_text">
+                                        <strong>이게 뭐길래, 요즘 핫해!</strong>
+                                        365일 작동해도 월 100원?
+                                    </div>
+                                    </a>
+                                </div>
+                                <img src="./img/마지막3.png">
+                                <div class="grid2_cell">
+                                    <a href="#">
+                                    <div class="grid2_cell_title">
+                                        폰뿌
+                                    </div>
+                                    <div class="grid2_cell_text">
+                                        <strong>놀라움에 경악 혁신 그 자체</strong>
+                                        만든사람 천재인가?
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid_wrap3">
+                            <div class="select_bar3">
+                                <div style="padding-right: 160px;" class="bar3_text">
+                                    PLAY · FUN
+                                </div>
+                                <div class="text">
+                                    <strong>1</strong>
+                                    <span> / 14</span>
+                                </div>
+                                <div class="arrow_area">
+                                    <a href="#"><img src="./img/왼쪽화살표.png"></a>
+                                    <a href="#"><img src="./img/오른쪽화살표.png"></a>
+                                </div>
+                            </div>
+                            <div class="grid_area3">
+                                <img src="./img/a1.png">
+                                <img src="./img/a2.png">
+                                <div class="final_text">
+                                    닥스 스니커즈 68% 초특가<br>
+                                    <span class="f1">68%</span> 
+                                    <span class="f2">
+                                        108,800원
+                                    </span>
+                                     <span class="f3">348,000원</span>
+                                </div>
+                                <div class="final_text">
+                                    닥스 스니커즈 68% 초특가<br>
+                                    <span class="f1">68%</span> 
+                                    <span class="f2">
+                                        108,800원
+                                    </span>
+                                     <span class="f3">348,000원</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div id="footer_inner">
+                <div class="banner_area">
+                    <a href="#">
+                        <div class="banner_area_content1">
+                            <img src="./img/배너사진1.png">
+                            <div>
+                                <div class="banner_content1_title">중소기업중앙회</div>
+                                <div class="banner_content1_title2">중고기업 서포터즈!</div>
+                                <div class="banner_content1_content">7.19 ~ 8.22</div>
+                                <div class="banner_content1_content2">방학에뭐하지? 행복한중기씨</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="banner_area_content2">
+                            <img src="./img/배너사진2.png">
+                            <div>
+                                <div class="banner_content1_title">네이버 파트너스퀘어TV</div>
+                                <div class="banner_content1_title2">네이버 광고 시작 팁</div>
+                                <div class="banner_content1_content2">네이버 메인과 검색 결과에 내 제품을 노출하세요!</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="banner_area_content2">
+                            <img src="./img/배너사진3.png">
+                            <div>
+                                <div class="banner_content1_title">해피빈 펀딩 기획전</div>
+                                <div class="banner_content1_title2">한 달간 3천원 적립</div>
+                                <div class="banner_content1_content2">시원한 오미자 음료부터, 다섯가지맛 누룽지까지</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="notice_area">
+                    <div class="notice_box">
+                        <h3 class="notice_box_title">
+                            <a href="#">공지사항</a>
+                        </h3>
+                        <a href="#" class="notice_box_content">
+                            네이버 '개인정보 처리방침' 변경에 대한 안내 말씀 드립니다.
+                        </a>
+                    </div>
+                    <div class="link_all">
+                        <a>
+                            서비스 전체보기
+                        </a>
+                        <img src="./img/공지바삼각형.png">
+                    </div>
+                </div>
+                <div class="aside_area">
+                    <div class="partner_box_wrap">
+                        <div class="partner_box">
+                            <h3 class="partner_box_title">Creator</h3>
+                            <div class="partner_box_content">
+                                <a href="#"class="partner_box_content_text" href="#">크리에이터</a>
+                                <div class="partner_box_content_bar"></div>
+                                <a href="#"class="partner_box_content_text" href="#">스몰비즈니스</a>
+                            </div>
+                        </div>
+                        <div class="partner_box">
+                            <h3 class="partner_box_title">Partners</h3>
+                            <div class="partner_box_content">
+                                <a href="#"class="partner_box_content_text" href="#">SME 풀케어 시스템</a>
+                                <div class="partner_box_content_bar"></div>
+                                <a href="#"class="partner_box_content_text" href="#">비즈니스 광고</a>
+                                <div class="partner_box_content_bar"></div>
+                                <a href="#"class="partner_box_content_text" href="#">스토어 개설</a>
+                                <div class="partner_box_content_bar"></div>
+                                <a href="#"class="partner_box_content_text" href="#">지역업체 등록</a>
+                                <div class="partner_box_content_bar"></div>
+                                <a href="#"class="partner_box_content_text" href="#">엑스퍼트 등록</a>
+                            </div>
+                        </div>
+                        <div class="partner_box">
+                            <h3 class="partner_box_title">Developers</h3>
+                            <div class="partner_box_content">
+                                <a href="#"class="partner_box_content_text" href="#">네이버 개발자 센터</a>
+                                <div class="partner_box_content_bar"></div>
+                                <a href="#"class="partner_box_content_text" href="#">오픈 API</a>
+                                <div class="partner_box_content_bar"></div>
+                                <a href="#"class="partner_box_content_text" href="#">오픈소스</a>
+                                <div class="partner_box_content_bar"></div>
+                                <a href="#"class="partner_box_content_text" href="#">네이버 D2</a>
+                                <div class="partner_box_content_bar"></div>
+                                <a href="#"class="partner_box_content_text" href="#">네이버 D2SF</a>
+                                <div class="partner_box_content_bar"></div>
+                                <a href="#"class="partner_box_content_text" href="#">네이버 랩스</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service_box_wrap">
+                        <div class="service_box_left">
+                            <div class="service_box_content">
+                                <div class="service_box_content_text">
+                                    <div class="service_box_content_title">
+                                        웨일 브라우저
+                                    </div>
+                                    <a href="#" class="service_box_content_link">
+                                        다운받기
+                                    </a>
+                                </div>
+                                <a href="#">
+                                <img src="./img/서비스박스그림1.png">
+                                <a>
+                            </div>
+                        </div>
+                        <div class="service_box_right">
+                            <div class="service_box_content">
+                                <div class="service_box_content_text">
+                                    <div class="service_box_content_title">
+                                        프로젝트 꽃
+                                    </div>
+                                    <a href="#" class="service_box_content_link">
+                                        바로가기
+                                    </a>
+                                </div>
+                                <a href="#">
+                                <img src="./img/서비스박스그림2.png">
+                                <a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="corp_area">
+                    <a href="#" class="corp_area_text">회사소개</a>
+                    <div class="corp_area_bar"></div>
+                    <a href="#" class="corp_area_text">인재채용</a>
+                    <div class="corp_area_bar"></div>
+                    <a href="#" class="corp_area_text">제휴제안</a>
+                    <div class="corp_area_bar"></div>
+                    <a href="#" class="corp_area_text">이용약관</a>
+                    <div class="corp_area_bar"></div>
+                    <a href="#"style="font-weight: 700;" href="#" class="corp_area_text">개인정보처리방침</a>
+                    <div class="corp_area_bar"></div>
+                    <a href="#" class="corp_area_text">청소년보호정책</a>
+                    <div class="corp_area_bar"></div>
+                    <a href="#" class="corp_area_text">네이버정책</a>
+                    <div class="corp_area_bar"></div>
+                    <a href="#" class="corp_area_text">고객센터</a>
+                    <a href="#" class="corp_area_final_text">ⓒ NAVER Corp.</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

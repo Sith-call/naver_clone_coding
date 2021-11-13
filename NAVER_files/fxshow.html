@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)https://siape.veta.naver.com/fxshow?su=SU10599&calp=1&nrefreshx=1 -->
+<html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>NAVER</title>
+	<link rel="stylesheet" type="text/css" href="./new_timeboard.min.css">
+<script type="text/javascript" src="./pc.veta.core.min.js(1).다운로드"></script>
+<script type="text/javascript">
+    try {
+        document.domain = "naver.com";
+    } catch (e) {
+
+    }
+var autoplay;
+
+function lazyLoading() {
+	var sImageserver = "https://ssl.pstatic.net/tveta/libs";
+	
+	loadScripts([
+		sImageserver + "/external/js/jquery-1.8.0.min.js?20170106",
+		sImageserver + "/external/js/CSSPlugin.min.js?20170106",
+		sImageserver + "/external/js/EasePack.min.js?20170106",
+		sImageserver + "/external/js/TweenLite.min.js?20170106",
+		sImageserver + "/assets/js/pc/main/min/timeboard_autoplay_750_flexunit.min.js?20200810"
+		], function() {
+			// ACK IMP
+			new Nimp(["https://siape.veta.naver.com/fxview?eu=EU10041889&calp=1&oj=A4YjrwVVtw%2FDeqN4Z1mSqVAv32dC097%2FuMXbALEyZn0%2Brd9kfbPrClUw4jImpmHbBvec6pf9pSehaCVhJTl8WU1fQcMb%2B3TiF8shjlhaA5E&ac=8382438&src=5242173&evtcd=P100&x_ti=1311&tb=&oid=&sid1=&sid2=&rk=bd6ee5959f9a17b59a493fa9dfdff0f1&eltts=70D1rCxLPmAzyb0i9%2FYEww%3D%3D&brs=Y&&eid=V800"]).log(1);
+			initAd();
+		});
+	
+	function loadScripts(urlArr, callback) {
+		var loadingCount = 0;
+		var resourceCnt = urlArr.length;
+
+		for(var i in urlArr) {
+			naver_corp_da.loadScript(urlArr[i], function() {
+				loadingCount++;
+				if(loadingCount === resourceCnt) callback();
+			});
+		}
+    }
+}
+
+function initAd() {
+	var info = {
+		adInfoImgSrc : "https://ssl.pstatic.net/tveta/libs/res/www/common/info/da_access.png",
+		creativeData : {
+			thumbVideoSrc : "https://tvetamovie.pstatic.net/libs/1350/1350815/484850a42704e8b75cbb_20210804100220714.mp4-pBASE-v0-f139562-20210804100235381.mp4",
+			expansionVideoSrc : "https://tvetamovie.pstatic.net/libs/1350/1350815/569c691798a95b89cb5a_20210804100109446.mp4-pHIGH-v0-f139561-20210804100234696.mp4",
+			altText : "[광고]궁금주의 네이버앱 당겨서 멤버십 적립금 체크 NAVER",
+		},
+		logData : {
+			bannerClick : "https://siape.veta.naver.com/fxclick?eu=EU10041889&calp=1&oj=A4YjrwVVtw%2FDeqN4Z1mSqVAv32dC097%2FuMXbALEyZn0%2Brd9kfbPrClUw4jImpmHbBvec6pf9pSehaCVhJTl8WU1fQcMb%2B3TiF8shjlhaA5E&ac=8382438&src=5242173&br=3573728&evtcd=P901&x_ti=1311&tb=&oid=&sid1=&sid2=&rk=bd6ee5959f9a17b59a493fa9dfdff0f1&eltts=70D1rCxLPmAzyb0i9%2FYEww%3D%3D&lu=&brs=Y&",
+			iconOverImp : "https://siape.veta.naver.com/fxclick?eu=EU10041889&calp=1&oj=A4YjrwVVtw%2FDeqN4Z1mSqVAv32dC097%2FuMXbALEyZn0%2Brd9kfbPrClUw4jImpmHbBvec6pf9pSehaCVhJTl8WU1fQcMb%2B3TiF8shjlhaA5E&ac=8382438&src=5242173&br=3573729&evtcd=C1052&x_ti=1311&tb=&oid=&sid1=&sid2=&rk=bd6ee5959f9a17b59a493fa9dfdff0f1&eltts=70D1rCxLPmAzyb0i9%2FYEww%3D%3D&lu=&brs=Y&",
+			expansionImp : "https://siape.veta.naver.com/fxview?eu=EU10041889&calp=1&oj=A4YjrwVVtw%2FDeqN4Z1mSqVAv32dC097%2FuMXbALEyZn0%2Brd9kfbPrClUw4jImpmHbBvec6pf9pSehaCVhJTl8WU1fQcMb%2B3TiF8shjlhaA5E&ac=8382438&src=5242174&evtcd=C1001&x_ti=1311&tb=&oid=&sid1=&sid2=&rk=bd6ee5959f9a17b59a493fa9dfdff0f1&eltts=70D1rCxLPmAzyb0i9%2FYEww%3D%3D&brs=Y&&eid=V810&t=i",
+			expansionClick : "https://siape.veta.naver.com/fxclick?eu=EU10041889&calp=1&oj=A4YjrwVVtw%2FDeqN4Z1mSqVAv32dC097%2FuMXbALEyZn0%2Brd9kfbPrClUw4jImpmHbBvec6pf9pSehaCVhJTl8WU1fQcMb%2B3TiF8shjlhaA5E&ac=8382438&src=5242174&br=3573730&evtcd=C1034&x_ti=1311&tb=&oid=&sid1=&sid2=&rk=bd6ee5959f9a17b59a493fa9dfdff0f1&eltts=70D1rCxLPmAzyb0i9%2FYEww%3D%3D&lu=&brs=Y&",
+			videoTracking : {
+				play : "https://siape.veta.naver.com/fxclick?eu=EU10041889&calp=1&oj=A4YjrwVVtw%2FDeqN4Z1mSqVAv32dC097%2FuMXbALEyZn0%2Brd9kfbPrClUw4jImpmHbBvec6pf9pSehaCVhJTl8WU1fQcMb%2B3TiF8shjlhaA5E&ac=8382438&src=5242174&br=3573731&evtcd=C1055&x_ti=1311&tb=&oid=&sid1=&sid2=&rk=bd6ee5959f9a17b59a493fa9dfdff0f1&eltts=70D1rCxLPmAzyb0i9%2FYEww%3D%3D&lu=&brs=Y&",
+				pause : "https://siape.veta.naver.com/fxclick?eu=EU10041889&calp=1&oj=A4YjrwVVtw%2FDeqN4Z1mSqVAv32dC097%2FuMXbALEyZn0%2Brd9kfbPrClUw4jImpmHbBvec6pf9pSehaCVhJTl8WU1fQcMb%2B3TiF8shjlhaA5E&ac=8382438&src=5242174&br=3573732&evtcd=C1057&x_ti=1311&tb=&oid=&sid1=&sid2=&rk=bd6ee5959f9a17b59a493fa9dfdff0f1&eltts=70D1rCxLPmAzyb0i9%2FYEww%3D%3D&lu=&brs=Y&",
+				soundOn : "https://siape.veta.naver.com/fxclick?eu=EU10041889&calp=1&oj=A4YjrwVVtw%2FDeqN4Z1mSqVAv32dC097%2FuMXbALEyZn0%2Brd9kfbPrClUw4jImpmHbBvec6pf9pSehaCVhJTl8WU1fQcMb%2B3TiF8shjlhaA5E&ac=8382438&src=5242174&br=3573733&evtcd=C1058&x_ti=1311&tb=&oid=&sid1=&sid2=&rk=bd6ee5959f9a17b59a493fa9dfdff0f1&eltts=70D1rCxLPmAzyb0i9%2FYEww%3D%3D&lu=&brs=Y&",
+				soundOff : "https://siape.veta.naver.com/fxclick?eu=EU10041889&calp=1&oj=A4YjrwVVtw%2FDeqN4Z1mSqVAv32dC097%2FuMXbALEyZn0%2Brd9kfbPrClUw4jImpmHbBvec6pf9pSehaCVhJTl8WU1fQcMb%2B3TiF8shjlhaA5E&ac=8382438&src=5242174&br=3573734&evtcd=C1059&x_ti=1311&tb=&oid=&sid1=&sid2=&rk=bd6ee5959f9a17b59a493fa9dfdff0f1&eltts=70D1rCxLPmAzyb0i9%2FYEww%3D%3D&lu=&brs=Y&",
+				progressTracking : [
+					"https://siape.veta.naver.com/fxview?eu=EU10041889&calp=1&oj=A4YjrwVVtw%2FDeqN4Z1mSqVAv32dC097%2FuMXbALEyZn0%2Brd9kfbPrClUw4jImpmHbBvec6pf9pSehaCVhJTl8WU1fQcMb%2B3TiF8shjlhaA5E&ac=8382438&src=5242175&evtcd=C1066&x_ti=1311&tb=&oid=&sid1=&sid2=&rk=bd6ee5959f9a17b59a493fa9dfdff0f1&eltts=70D1rCxLPmAzyb0i9%2FYEww%3D%3D&brs=Y&&eid=V810&t=i",
+					"https://siape.veta.naver.com/fxview?eu=EU10041889&calp=1&oj=A4YjrwVVtw%2FDeqN4Z1mSqVAv32dC097%2FuMXbALEyZn0%2Brd9kfbPrClUw4jImpmHbBvec6pf9pSehaCVhJTl8WU1fQcMb%2B3TiF8shjlhaA5E&ac=8382438&src=5242176&evtcd=C1067&x_ti=1311&tb=&oid=&sid1=&sid2=&rk=bd6ee5959f9a17b59a493fa9dfdff0f1&eltts=70D1rCxLPmAzyb0i9%2FYEww%3D%3D&brs=Y&&eid=V810&t=i",
+					"https://siape.veta.naver.com/fxview?eu=EU10041889&calp=1&oj=A4YjrwVVtw%2FDeqN4Z1mSqVAv32dC097%2FuMXbALEyZn0%2Brd9kfbPrClUw4jImpmHbBvec6pf9pSehaCVhJTl8WU1fQcMb%2B3TiF8shjlhaA5E&ac=8382438&src=5242177&evtcd=C1068&x_ti=1311&tb=&oid=&sid1=&sid2=&rk=bd6ee5959f9a17b59a493fa9dfdff0f1&eltts=70D1rCxLPmAzyb0i9%2FYEww%3D%3D&brs=Y&&eid=V810&t=i",
+					"https://siape.veta.naver.com/fxview?eu=EU10041889&calp=1&oj=A4YjrwVVtw%2FDeqN4Z1mSqVAv32dC097%2FuMXbALEyZn0%2Brd9kfbPrClUw4jImpmHbBvec6pf9pSehaCVhJTl8WU1fQcMb%2B3TiF8shjlhaA5E&ac=8382438&src=5242178&evtcd=C1069&x_ti=1311&tb=&oid=&sid1=&sid2=&rk=bd6ee5959f9a17b59a493fa9dfdff0f1&eltts=70D1rCxLPmAzyb0i9%2FYEww%3D%3D&brs=Y&&eid=V810&t=i"
+				]
+			},
+			noSupportClick : "https://siape.veta.naver.com/fxclick?eu=EU10041889&calp=1&oj=A4YjrwVVtw%2FDeqN4Z1mSqVAv32dC097%2FuMXbALEyZn0%2Brd9kfbPrClUw4jImpmHbBvec6pf9pSehaCVhJTl8WU1fQcMb%2B3TiF8shjlhaA5E&ac=8382438&src=5242179&br=3573735&evtcd=C1017&x_ti=1311&tb=&oid=&sid1=&sid2=&rk=bd6ee5959f9a17b59a493fa9dfdff0f1&eltts=70D1rCxLPmAzyb0i9%2FYEww%3D%3D&lu=&brs=Y&",
+		},
+		fileviewcountapi1: "38390CC423DE758B18827335B9FA7473E7F7" != "" ? "https://apis.naver.com/mcollector/mcollector/playCount?p=%7B%22vid%22%3A%2238390CC423DE758B18827335B9FA7473E7F7%22%2C%22inout%22%3A%22out%22%2C%22stp%22%3A%22101%22%2C%22sid%22%3A%222010%22%7D" : "",
+	};
+
+	info.cssSrc = "https://ssl.pstatic.net/tveta/libs/assets/css/pc/main/min/timeboard_autoplay_750.min.css?20170222";
+	info.creativeData.bannerImgSrc = "https://ssl.pstatic.net/tveta/libs/1350/1350815/888a75501949a9b68461_20210804100014533.png";
+	info.creativeData.expansionStillSrc = "https://ssl.pstatic.net/tveta/libs/1350/1350815/8c98b5289ab87f345640_20210804100101292.png";
+	info.creativeData.noSupportImgSrc = "https://ssl.pstatic.net/tveta/libs/1350/1350815/5473d1e71b0544b9c45f_20210804100049204.png";
+	info.logData.noSupportImp = "https://siape.veta.naver.com/fxview?eu=EU10041889&calp=1&oj=A4YjrwVVtw%2FDeqN4Z1mSqVAv32dC097%2FuMXbALEyZn0%2Brd9kfbPrClUw4jImpmHbBvec6pf9pSehaCVhJTl8WU1fQcMb%2B3TiF8shjlhaA5E&ac=8382438&src=5242179&evtcd=C1000&x_ti=1311&tb=&oid=&sid1=&sid2=&rk=bd6ee5959f9a17b59a493fa9dfdff0f1&eltts=70D1rCxLPmAzyb0i9%2FYEww%3D%3D&brs=Y&&eid=V810&t=i",
+	info.height = 135;
+	info.width = 750;
+	info.newver = true;
+
+	
+	info.adDiv = Da.$$("da_expwide");
+
+	autoplay = new TimeboardAutoPlay(info);
+	autoplay.initAd();
+}
+
+function expandAd() {
+	autoplay.expandAd();
+}
+
+function hideAd() {
+	autoplay.hideAd();
+}
+
+</script>
+<script type="text/javascript" src="./jquery-1.8.0.min.js.다운로드"></script><script type="text/javascript" src="./CSSPlugin.min.js.다운로드"></script><script type="text/javascript" src="./EasePack.min.js.다운로드"></script><script type="text/javascript" src="./TweenLite.min.js.다운로드"></script><script type="text/javascript" src="./timeboard_autoplay_750_flexunit.min.js.다운로드"></script></head>
+<body onload="lazyLoading()" marginwidth="0" marginheight="0">
+<div id="da_timeboard">
+	<div class="content">
+		<div id="addiv" class="ad"></div>
+		<a id="link" name="link" aria-hidden="true" onclick="return false;"></a>
+	</div>
+</div>
+
+<div style="display: none;"></div></body></html>
